@@ -1,0 +1,19 @@
+.project-card {
+    border: 1px solid #ccc;
+    padding: 12px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: box-shadow 0.2s;
+  }
+  
+  .project-card:hover {
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);
+  }
+  
+  .project-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
